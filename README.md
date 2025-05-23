@@ -1,9 +1,7 @@
 # Molecular docking steps for BTK molecular glues
 
 # Prepare folders for BTK project
-mkdir -p BTK/ligprep BTK/proteinpreparation BTK/docking BTK/analysis BTK/docs
-
-OR mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}
+mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}
 
 # Step1: Ligprep using MEEKO, scrup.py
 
