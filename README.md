@@ -1,4 +1,6 @@
-# Molecular docking steps for BTK molecular glues
+# BTK molecular glues Design
+
+
 
 # Prepare folders for BTK project
 mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}
