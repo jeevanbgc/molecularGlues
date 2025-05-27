@@ -4,7 +4,7 @@
 ## Prepare folders for BTK project
 `mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}`
 
-## STEP 1: Prepare ligands for docking;  generate 3D conformation, assign protonation state, MEEKO, scrup.py
+## STEP 1: Prepare ligands for docking in PDBQT format;  generate 3D conformation using RDKiT, assign protonation states using scrup.py; 
 
 `conda activate autodock`
 
@@ -13,7 +13,7 @@
 `bash ligprep.sh` 
 
 
-## STEP 2: Prepare protein for docking; Fill missing atoms and residues, Protein preparation using OPENMM, PDBFixer, PDB2PQR
+## STEP 2: Prepare protein for docking in PDBQT format; Fill missing atoms and residues, Protein preparation using PDBFixer, OPENMM, PDB2PQR
 
 `protein_preparation_pdbfixer.ipynb`
 
@@ -28,19 +28,19 @@
 `bash split_results.sh`
 
 ## STEP 4: Analysis; select the best docking pose (loweest docking score kcal/mol), visualize the protein-ligand interaction fingerprints 
-### autodock_results_view.ipynb will combine the protein and ligand to a single PDB
+autodock_results_view.ipynb will combine the protein and ligand to a single PDB
 
 `cd ../analysis`
 
 `bash autodock_results.sh`
 
 ## STEP 5: Check the docked poses, sterocenters using Posebusters
-### Save the bioactive conformation of ligand from the PDB that will be used as reference to calculate the RMSD.
+Save the bioactive conformation of ligand from the PDB that will be used as reference to calculate the RMSD.
 
 `cd ../analysis`
 
 `bash posebuster.sh`
 
-## STEP 6: FEP Calculation 
+## STEP 6: FEP Calculation; Docking provides the best pose of the BTK design; FEP calculation prioritize these deisgns
 
 `cd ../fep`
