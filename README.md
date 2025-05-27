@@ -1,33 +1,46 @@
-# BTK Molecular Glues Design
+![image](https://github.com/user-attachments/assets/3ef7d5c2-30ff-42f4-9516-6e8ed80c510f)
+
 
 ## Prepare folders for BTK project
 `mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}`
 
-## Step 1: Ligprep using MEEKO, scrup.py
+## STEP 1: Prepare ligands for docking;  generate 3D conformation, assign protonation state, MEEKO, scrup.py
 
 `conda activate autodock`
+
 `cd ligprep`
+
 `bash ligprep.sh` 
 
 
-## Step 2: Protein preparation using OPENMM, PDBFixer, PDB2PQR
+## STEP 2: Prepare protein for docking; Fill missing atoms and residues, Protein preparation using OPENMM, PDBFixer, PDB2PQR
 
 `protein_preparation_pdbfixer.ipynb`
+
 `bash protein_preparation_pdb_to_pdbqt.sh`
 
-## Step 3: Docking using Vina
+## STEP 3: Docking using Autodock Vina Program
 
 `cd ../docking`
+
 `bash vina_docking.sh`
 
-## Step 4: Analysis, autodock_results_view.ipynb will combine the protein and ligand to a single PDB
+`bash split_results.sh`
+
+## STEP 4: Analysis; select the best docking pose (loweest docking score kcal/mol), visualize the protein-ligand interaction fingerprints 
+### autodock_results_view.ipynb will combine the protein and ligand to a single PDB
 
 `cd ../analysis`
+
 `bash autodock_results.sh`
 
-## Step 5: Posebusters
-
-#load the PDB structure in pymol and save the lignd only pdb file.
+## STEP 5: Check the docked poses, sterocenters using Posebusters
+### Save the bioactive conformation of ligand from the PDB that will be used as reference to calculate the RMSD.
 
 `cd ../analysis`
+
 `bash posebuster.sh`
+
+## STEP 6: FEP Calculation 
+
+`cd ../fep`
