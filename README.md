@@ -4,7 +4,7 @@
 ## Prepare folders for BTK project
 `mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}`
 
-## STEP 1: Prepare ligands for docking in PDBQT format;  generate 3D conformation using RDKiT, assign protonation states using scrup.py; 
+## STEP 1: Prepare ligands for docking in PDBQT format;  generate 3D conformation using RDKiT, assign protonation states using scrub.py; 
 
 `conda activate autodock`
 
@@ -13,13 +13,13 @@
 `bash ligprep.sh` 
 
 
-## STEP 2: Prepare protein for docking in PDBQT format; Fill missing atoms and residues, Protein preparation using PDBFixer, OPENMM, PDB2PQR
+## STEP 2: Prepare protein for docking in PDBQT format; fill missing atoms and residues, protein preparation using PDBFixer, OPENMM, PDB2PQR
 
 `protein_preparation_pdbfixer.ipynb`
 
 `bash protein_preparation_pdb_to_pdbqt.sh`
 
-## STEP 3: Docking using Autodock Vina Program
+## STEP 3: Docking using Autodock Vina program
 
 `cd ../docking`
 
