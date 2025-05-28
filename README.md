@@ -2,7 +2,7 @@
 
 
 ## Prepare folders for BTK project
-`mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep}`
+`mkdir -p BTK/{ligprep,proteinpreparation,docking,analysis,docs,fep,DNN}`
 
 ## STEP 1: Prepare ligands for docking in PDBQT format;  generate 3D conformation using RDKiT, assign protonation states using scrub.py; 
 
@@ -44,3 +44,11 @@ Save the bioactive conformation of ligand from the PDB that will be used as refe
 ## STEP 6: FEP Calculation; Docking provides the best pose of the BTK design; FEP calculation prioritize these deisgns
 
 `cd ../fep`
+
+## STEP 7: Deep Neural Network to predict the binding affinity values of designs
+
+`cd ../DNN`
+
+`btk_pic50_DNN.ipynb`
+
+
