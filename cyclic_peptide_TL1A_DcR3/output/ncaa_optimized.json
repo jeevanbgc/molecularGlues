@@ -1,0 +1,844 @@
+[
+  {
+    "rank": 1,
+    "variant_name": "CP-Hairpin14_balC",
+    "parent_name": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "[Nal]P[NMe-G]S[Nal][Nal][D-P][NMe-G]NHHKC[NMe-F]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1450,
+    "permeability_score": 0.38,
+    "stability_score": 0.6,
+    "affinity_retention": 1.0,
+    "composite_score": 0.663,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 3,
+    "num_d_aa": 1,
+    "num_other_ncaa": 3,
+    "substitutions": [
+      {
+        "position": 2,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "solvent",
+        "rationale": "N-methylation at solvent position 2 to reduce HBD count"
+      },
+      {
+        "position": 13,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 13 to reduce HBD count"
+      },
+      {
+        "position": 7,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 7 to reduce HBD count"
+      },
+      {
+        "position": 6,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 0,
+        "original": "Y",
+        "ncaa_code": "Nal",
+        "ncaa_name": "\u03b2-(2-naphthyl)-L-alanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "Naphthylalanine for enhanced aromatic surface at hotspot"
+      },
+      {
+        "position": 4,
+        "original": "Y",
+        "ncaa_code": "Nal",
+        "ncaa_name": "\u03b2-(2-naphthyl)-L-alanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "Naphthylalanine for enhanced aromatic surface at hotspot"
+      },
+      {
+        "position": 5,
+        "original": "Y",
+        "ncaa_code": "Nal",
+        "ncaa_name": "\u03b2-(2-naphthyl)-L-alanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "Naphthylalanine for enhanced aromatic surface at hotspot"
+      }
+    ]
+  },
+  {
+    "rank": 2,
+    "variant_name": "CP-Hairpin14_maxD",
+    "parent_name": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "[Nal]P[NMe-G]S[Nal][Nal][D-P][NMe-G]NHHKC[NMe-F]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1450,
+    "permeability_score": 0.38,
+    "stability_score": 0.6,
+    "affinity_retention": 1.0,
+    "composite_score": 0.663,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 3,
+    "num_d_aa": 1,
+    "num_other_ncaa": 3,
+    "substitutions": [
+      {
+        "position": 2,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "solvent",
+        "rationale": "N-methylation at solvent position 2 to reduce HBD count"
+      },
+      {
+        "position": 13,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 13 to reduce HBD count"
+      },
+      {
+        "position": 7,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 7 to reduce HBD count"
+      },
+      {
+        "position": 6,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 0,
+        "original": "Y",
+        "ncaa_code": "Nal",
+        "ncaa_name": "\u03b2-(2-naphthyl)-L-alanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "Naphthylalanine for enhanced aromatic surface at hotspot"
+      },
+      {
+        "position": 4,
+        "original": "Y",
+        "ncaa_code": "Nal",
+        "ncaa_name": "\u03b2-(2-naphthyl)-L-alanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "Naphthylalanine for enhanced aromatic surface at hotspot"
+      },
+      {
+        "position": 5,
+        "original": "Y",
+        "ncaa_code": "Nal",
+        "ncaa_name": "\u03b2-(2-naphthyl)-L-alanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "Naphthylalanine for enhanced aromatic surface at hotspot"
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "variant_name": "CP-Biloop-thioether17_balC",
+    "parent_name": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "C[NMe-T]C[NMe-F]PNHH[NMe-G][NMe-G]DNQT[4F-Phe][NMe-G]",
+    "cyclization": "thioether",
+    "mw_daltons": 1560,
+    "permeability_score": 0.44,
+    "stability_score": 0.516,
+    "affinity_retention": 1.0,
+    "composite_score": 0.659,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 5,
+    "num_d_aa": 0,
+    "num_other_ncaa": 1,
+    "substitutions": [
+      {
+        "position": 1,
+        "original": "T",
+        "ncaa_code": "NMe-T",
+        "ncaa_name": "N-methyl-Threonine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 1 to reduce HBD count"
+      },
+      {
+        "position": 3,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 3 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 8 to reduce HBD count"
+      },
+      {
+        "position": 9,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 9 to reduce HBD count"
+      },
+      {
+        "position": 15,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 15 to reduce HBD count"
+      },
+      {
+        "position": 14,
+        "original": "F",
+        "ncaa_code": "4F-Phe",
+        "ncaa_name": "4-fluoro-L-phenylalanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "4-fluoroPhe to enhance aromatic contact with TL1A"
+      }
+    ]
+  },
+  {
+    "rank": 4,
+    "variant_name": "CP-Biloop-thioether17_maxD",
+    "parent_name": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "C[NMe-T]C[NMe-F]PNHH[NMe-G][NMe-G]DNQT[4F-Phe][NMe-G]",
+    "cyclization": "thioether",
+    "mw_daltons": 1560,
+    "permeability_score": 0.44,
+    "stability_score": 0.516,
+    "affinity_retention": 1.0,
+    "composite_score": 0.659,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 5,
+    "num_d_aa": 0,
+    "num_other_ncaa": 1,
+    "substitutions": [
+      {
+        "position": 1,
+        "original": "T",
+        "ncaa_code": "NMe-T",
+        "ncaa_name": "N-methyl-Threonine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 1 to reduce HBD count"
+      },
+      {
+        "position": 3,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 3 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 8 to reduce HBD count"
+      },
+      {
+        "position": 9,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 9 to reduce HBD count"
+      },
+      {
+        "position": 15,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 15 to reduce HBD count"
+      },
+      {
+        "position": 14,
+        "original": "F",
+        "ncaa_code": "4F-Phe",
+        "ncaa_name": "4-fluoro-L-phenylalanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "4-fluoroPhe to enhance aromatic contact with TL1A"
+      }
+    ]
+  },
+  {
+    "rank": 5,
+    "variant_name": "CP-Biloop-GP16_balC",
+    "parent_name": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TC[NMe-F]PNHH[NMe-G][D-P]DNQT[4F-Phe][NMe-G][D-P]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1532,
+    "permeability_score": 0.357,
+    "stability_score": 0.588,
+    "affinity_retention": 1.0,
+    "composite_score": 0.651,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 3,
+    "num_d_aa": 2,
+    "num_other_ncaa": 1,
+    "substitutions": [
+      {
+        "position": 2,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 2 to reduce HBD count"
+      },
+      {
+        "position": 7,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 7 to reduce HBD count"
+      },
+      {
+        "position": 14,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 14 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 15,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 13,
+        "original": "F",
+        "ncaa_code": "4F-Phe",
+        "ncaa_name": "4-fluoro-L-phenylalanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "4-fluoroPhe to enhance aromatic contact with TL1A"
+      }
+    ]
+  },
+  {
+    "rank": 6,
+    "variant_name": "CP-Biloop-GP16_maxD",
+    "parent_name": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TC[NMe-F]PNHH[NMe-G][D-P]DNQT[4F-Phe][NMe-G][D-P]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1532,
+    "permeability_score": 0.357,
+    "stability_score": 0.588,
+    "affinity_retention": 1.0,
+    "composite_score": 0.651,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 3,
+    "num_d_aa": 2,
+    "num_other_ncaa": 1,
+    "substitutions": [
+      {
+        "position": 2,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 2 to reduce HBD count"
+      },
+      {
+        "position": 7,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 7 to reduce HBD count"
+      },
+      {
+        "position": 14,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 14 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 15,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 13,
+        "original": "F",
+        "ncaa_code": "4F-Phe",
+        "ncaa_name": "4-fluoro-L-phenylalanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "4-fluoroPhe to enhance aromatic contact with TL1A"
+      }
+    ]
+  },
+  {
+    "rank": 7,
+    "variant_name": "CP-Biloop-thioether17_permA",
+    "parent_name": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "C[NMe-T]C[NMe-F]PNHH[NMe-G][NMe-G]DNQTF[NMe-G]",
+    "cyclization": "thioether",
+    "mw_daltons": 1542,
+    "permeability_score": 0.417,
+    "stability_score": 0.492,
+    "affinity_retention": 1.0,
+    "composite_score": 0.644,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 5,
+    "num_d_aa": 0,
+    "num_other_ncaa": 0,
+    "substitutions": [
+      {
+        "position": 1,
+        "original": "T",
+        "ncaa_code": "NMe-T",
+        "ncaa_name": "N-methyl-Threonine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 1 to reduce HBD count"
+      },
+      {
+        "position": 3,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 3 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 8 to reduce HBD count"
+      },
+      {
+        "position": 9,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 9 to reduce HBD count"
+      },
+      {
+        "position": 15,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 15 to reduce HBD count"
+      }
+    ]
+  },
+  {
+    "rank": 8,
+    "variant_name": "CP-Biloop-GP16_permA",
+    "parent_name": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TC[NMe-F]PNHH[NMe-G]PDNQTF[NMe-G]P",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1514,
+    "permeability_score": 0.335,
+    "stability_score": 0.42,
+    "affinity_retention": 1.0,
+    "composite_score": 0.593,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 3,
+    "num_d_aa": 0,
+    "num_other_ncaa": 0,
+    "substitutions": [
+      {
+        "position": 2,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 2 to reduce HBD count"
+      },
+      {
+        "position": 7,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 7 to reduce HBD count"
+      },
+      {
+        "position": 14,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 14 to reduce HBD count"
+      }
+    ]
+  },
+  {
+    "rank": 9,
+    "variant_name": "CP-Hairpin14_permA",
+    "parent_name": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "YP[NMe-G]SYYP[NMe-G]NHHKC[NMe-F]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1330,
+    "permeability_score": 0.335,
+    "stability_score": 0.42,
+    "affinity_retention": 1.0,
+    "composite_score": 0.593,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 3,
+    "num_d_aa": 0,
+    "num_other_ncaa": 0,
+    "substitutions": [
+      {
+        "position": 2,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "solvent",
+        "rationale": "N-methylation at solvent position 2 to reduce HBD count"
+      },
+      {
+        "position": 13,
+        "original": "F",
+        "ncaa_code": "NMe-F",
+        "ncaa_name": "N-methyl-Phenylalanine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 13 to reduce HBD count"
+      },
+      {
+        "position": 7,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 7 to reduce HBD count"
+      }
+    ]
+  },
+  {
+    "rank": 10,
+    "variant_name": "CP-CRD3-9mer_balC",
+    "parent_name": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "[NMe-T]HDNQT[4F-Phe]P[NMe-G]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 874,
+    "permeability_score": 0.305,
+    "stability_score": 0.396,
+    "affinity_retention": 1.0,
+    "composite_score": 0.576,
+    "drug_likeness": "Good (macrocycle space)",
+    "num_nme": 2,
+    "num_d_aa": 0,
+    "num_other_ncaa": 1,
+    "substitutions": [
+      {
+        "position": 0,
+        "original": "T",
+        "ncaa_code": "NMe-T",
+        "ncaa_name": "N-methyl-Threonine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 0 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 8 to reduce HBD count"
+      },
+      {
+        "position": 6,
+        "original": "F",
+        "ncaa_code": "4F-Phe",
+        "ncaa_name": "4-fluoro-L-phenylalanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "4-fluoroPhe to enhance aromatic contact with TL1A"
+      }
+    ]
+  },
+  {
+    "rank": 11,
+    "variant_name": "CP-CRD3-9mer_maxD",
+    "parent_name": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "[NMe-T]HDNQT[4F-Phe]P[NMe-G]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 874,
+    "permeability_score": 0.305,
+    "stability_score": 0.396,
+    "affinity_retention": 1.0,
+    "composite_score": 0.576,
+    "drug_likeness": "Good (macrocycle space)",
+    "num_nme": 2,
+    "num_d_aa": 0,
+    "num_other_ncaa": 1,
+    "substitutions": [
+      {
+        "position": 0,
+        "original": "T",
+        "ncaa_code": "NMe-T",
+        "ncaa_name": "N-methyl-Threonine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 0 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 8 to reduce HBD count"
+      },
+      {
+        "position": 6,
+        "original": "F",
+        "ncaa_code": "4F-Phe",
+        "ncaa_name": "4-fluoro-L-phenylalanine",
+        "category": "modified",
+        "role": "hotspot",
+        "rationale": "4-fluoroPhe to enhance aromatic contact with TL1A"
+      }
+    ]
+  },
+  {
+    "rank": 12,
+    "variant_name": "CP-CRD3-9mer_permA",
+    "parent_name": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "[NMe-T]HDNQTFP[NMe-G]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 856,
+    "permeability_score": 0.283,
+    "stability_score": 0.372,
+    "affinity_retention": 0.995,
+    "composite_score": 0.559,
+    "drug_likeness": "Good (macrocycle space)",
+    "num_nme": 2,
+    "num_d_aa": 0,
+    "num_other_ncaa": 0,
+    "substitutions": [
+      {
+        "position": 0,
+        "original": "T",
+        "ncaa_code": "NMe-T",
+        "ncaa_name": "N-methyl-Threonine",
+        "category": "N-methyl",
+        "role": "scaffold",
+        "rationale": "N-methylation at scaffold position 0 to reduce HBD count"
+      },
+      {
+        "position": 8,
+        "original": "G",
+        "ncaa_code": "NMe-G",
+        "ncaa_name": "N-methyl-Glycine (sarcosine)",
+        "category": "N-methyl",
+        "role": "turn",
+        "rationale": "N-methylation at turn position 8 to reduce HBD count"
+      }
+    ]
+  },
+  {
+    "rank": 13,
+    "variant_name": "CP-Biloop-GP16_stabB",
+    "parent_name": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TCFPNHHG[D-P]DNQTFG[D-P]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1472,
+    "permeability_score": 0.2,
+    "stability_score": 0.444,
+    "affinity_retention": 0.98,
+    "composite_score": 0.546,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 0,
+    "num_d_aa": 2,
+    "num_other_ncaa": 0,
+    "substitutions": [
+      {
+        "position": 8,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      },
+      {
+        "position": 15,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      }
+    ]
+  },
+  {
+    "rank": 14,
+    "variant_name": "CP-Hairpin14_stabB",
+    "parent_name": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "YPGSYY[D-P]GNHHKCF",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1288,
+    "permeability_score": 0.2,
+    "stability_score": 0.372,
+    "affinity_retention": 0.99,
+    "composite_score": 0.528,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 0,
+    "num_d_aa": 1,
+    "num_other_ncaa": 0,
+    "substitutions": [
+      {
+        "position": 6,
+        "original": "P",
+        "ncaa_code": "D-P",
+        "ncaa_name": "D-Proline",
+        "category": "D-amino",
+        "role": "turn",
+        "rationale": "D-Pro at turn for type II' \u03b2-turn and protease resistance"
+      }
+    ]
+  },
+  {
+    "rank": 15,
+    "variant_name": "CP-CRD3-9mer_stabB",
+    "parent_name": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "THDNQTFPG",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 828,
+    "permeability_score": 0.2,
+    "stability_score": 0.3,
+    "affinity_retention": 1.0,
+    "composite_score": 0.51,
+    "drug_likeness": "Good (macrocycle space)",
+    "num_nme": 0,
+    "num_d_aa": 0,
+    "num_other_ncaa": 0,
+    "substitutions": []
+  },
+  {
+    "rank": 16,
+    "variant_name": "CP-Biloop-thioether17_stabB",
+    "parent_name": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "CTCFPNHHGGDNQTFG",
+    "cyclization": "thioether",
+    "mw_daltons": 1472,
+    "permeability_score": 0.2,
+    "stability_score": 0.3,
+    "affinity_retention": 1.0,
+    "composite_score": 0.51,
+    "drug_likeness": "Challenging (biologic-like)",
+    "num_nme": 0,
+    "num_d_aa": 0,
+    "num_other_ncaa": 0,
+    "substitutions": []
+  }
+]

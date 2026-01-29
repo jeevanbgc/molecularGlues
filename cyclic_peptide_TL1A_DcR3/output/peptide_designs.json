@@ -1,0 +1,165 @@
+[
+  {
+    "name": "CP-CRD3-9mer",
+    "sequence": "THDNQTFPG",
+    "parent_segments": [
+      "CRD3_105-113"
+    ],
+    "cyclization": "head-to-tail",
+    "linker": "",
+    "length": 9,
+    "hotspot_coverage": 0.3333333333333333,
+    "mw_daltons": 828,
+    "clogp_estimate": -1.1,
+    "num_hbond_donors": 14,
+    "num_hbond_acceptors": 14,
+    "num_rotatable_bonds": 16,
+    "oral_bioavail_score": 0.95,
+    "notes": "CRD3 hotspot loop, very druggable size",
+    "rank": 1,
+    "composite_score": 0.7183
+  },
+  {
+    "name": "CP-Biloop-GP16",
+    "sequence": "TCFPNHHGPDNQTFGP",
+    "parent_segments": [
+      "CRD2_62-68",
+      "CRD3_107-111"
+    ],
+    "cyclization": "head-to-tail",
+    "linker": "GP",
+    "length": 16,
+    "hotspot_coverage": 0.5,
+    "mw_daltons": 1472,
+    "clogp_estimate": -0.8,
+    "num_hbond_donors": 23,
+    "num_hbond_acceptors": 23,
+    "num_rotatable_bonds": 30,
+    "oral_bioavail_score": 0.3,
+    "notes": "Biloop hybrid, GP linkers, maximizes coverage",
+    "rank": 2,
+    "composite_score": 0.59
+  },
+  {
+    "name": "CP-Biloop-thioether17",
+    "sequence": "CTCFPNHHGGDNQTFG",
+    "parent_segments": [
+      "CRD2_62-68",
+      "CRD3_107-111"
+    ],
+    "cyclization": "thioether",
+    "linker": "GG",
+    "length": 16,
+    "hotspot_coverage": 0.5,
+    "mw_daltons": 1472,
+    "clogp_estimate": -2.4,
+    "num_hbond_donors": 23,
+    "num_hbond_acceptors": 24,
+    "num_rotatable_bonds": 30,
+    "oral_bioavail_score": 0.3,
+    "notes": "Thioether macrocycle (RaPID-style), biloop hybrid",
+    "rank": 3,
+    "composite_score": 0.59
+  },
+  {
+    "name": "CP-Hairpin14",
+    "sequence": "YPGSYYPGNHHKCF",
+    "parent_segments": [
+      "CRD2_71-78",
+      "CRD2_62-67_rev"
+    ],
+    "cyclization": "head-to-tail",
+    "linker": "",
+    "length": 14,
+    "hotspot_coverage": 0.4166666666666667,
+    "mw_daltons": 1288,
+    "clogp_estimate": -1.8,
+    "num_hbond_donors": 22,
+    "num_hbond_acceptors": 20,
+    "num_rotatable_bonds": 26,
+    "oral_bioavail_score": 0.3,
+    "notes": "\u03b2-hairpin mimic, DPro-Gly turn in NCAA step, captures Y75,Y76,H67,H68",
+    "rank": 4,
+    "composite_score": 0.5567
+  },
+  {
+    "name": "CP-CRD3-ext14",
+    "sequence": "QHETHDNQTFPGQL",
+    "parent_segments": [
+      "CRD3_101-114"
+    ],
+    "cyclization": "head-to-tail",
+    "linker": "",
+    "length": 14,
+    "hotspot_coverage": 0.3333333333333333,
+    "mw_daltons": 1288,
+    "clogp_estimate": -1.8,
+    "num_hbond_donors": 22,
+    "num_hbond_acceptors": 22,
+    "num_rotatable_bonds": 26,
+    "oral_bioavail_score": 0.3,
+    "notes": "Extended CRD3 loop with flanking for structure",
+    "rank": 5,
+    "composite_score": 0.5233
+  },
+  {
+    "name": "CP-CRD2-ext19",
+    "sequence": "GQTCFPNHHKCDCYPGSYY",
+    "parent_segments": [
+      "CRD2_60-78"
+    ],
+    "cyclization": "head-to-tail",
+    "linker": "",
+    "length": 19,
+    "hotspot_coverage": 0.5,
+    "mw_daltons": 1748,
+    "clogp_estimate": -3.3,
+    "num_hbond_donors": 29,
+    "num_hbond_acceptors": 30,
+    "num_rotatable_bonds": 36,
+    "oral_bioavail_score": 0.3,
+    "notes": "Extended CRD2 loop, captures T62,H67,H68,Y75,Y76,S78",
+    "rank": 6,
+    "composite_score": 0.5
+  },
+  {
+    "name": "CP-CRD2-SS20",
+    "sequence": "CQTCFPNHHKCDCYPGSYYC",
+    "parent_segments": [
+      "CRD2_60-78"
+    ],
+    "cyclization": "disulfide",
+    "linker": "",
+    "length": 20,
+    "hotspot_coverage": 0.5,
+    "mw_daltons": 1840,
+    "clogp_estimate": -3.6,
+    "num_hbond_donors": 30,
+    "num_hbond_acceptors": 33,
+    "num_rotatable_bonds": 38,
+    "oral_bioavail_score": 0.3,
+    "notes": "Disulfide-cyclized CRD2 loop, extra rigidity from 2 disulfides",
+    "rank": 7,
+    "composite_score": 0.5
+  },
+  {
+    "name": "CP-CRD2-min14",
+    "sequence": "QTCFPNHHKCDCYP",
+    "parent_segments": [
+      "CRD2_61-74"
+    ],
+    "cyclization": "head-to-tail",
+    "linker": "",
+    "length": 14,
+    "hotspot_coverage": 0.16666666666666666,
+    "mw_daltons": 1288,
+    "clogp_estimate": -1.8,
+    "num_hbond_donors": 21,
+    "num_hbond_acceptors": 22,
+    "num_rotatable_bonds": 26,
+    "oral_bioavail_score": 0.3,
+    "notes": "Minimal CRD2 loop, captures H67/H68 hotspots",
+    "rank": 8,
+    "composite_score": 0.4567
+  }
+]

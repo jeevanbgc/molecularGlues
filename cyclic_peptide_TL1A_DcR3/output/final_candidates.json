@@ -1,0 +1,322 @@
+[
+  {
+    "rank": 1,
+    "name": "CP-CRD3-9mer_balC",
+    "parent": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "[NMe-T]HDNQT[4F-Phe]P[NMe-G]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 881.29,
+    "length": 9,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.609,
+      "stability": 0.46,
+      "synthesis": 0.87,
+      "drug_likeness": 0.83,
+      "FINAL": 0.756
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-([NMe-T]\u2013H\u2013D\u2013N\u2013Q\u2013T\u2013[4F-Phe]\u2013P\u2013[NMe-G]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 2,
+    "name": "CP-CRD3-9mer_maxD",
+    "parent": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "[NMe-T]HDNQT[4F-Phe]P[NMe-G]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 881.29,
+    "length": 9,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.609,
+      "stability": 0.46,
+      "synthesis": 0.87,
+      "drug_likeness": 0.83,
+      "FINAL": 0.756
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-([NMe-T]\u2013H\u2013D\u2013N\u2013Q\u2013T\u2013[4F-Phe]\u2013P\u2013[NMe-G]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 3,
+    "name": "CP-CRD3-9mer_permA",
+    "parent": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "[NMe-T]HDNQTFP[NMe-G]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 863.29,
+    "length": 9,
+    "scores": {
+      "affinity": 0.995,
+      "permeability": 0.62,
+      "stability": 0.31,
+      "synthesis": 0.975,
+      "drug_likeness": 0.83,
+      "FINAL": 0.738
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-([NMe-T]\u2013H\u2013D\u2013N\u2013Q\u2013T\u2013F\u2013P\u2013[NMe-G]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 4,
+    "name": "CP-CRD3-9mer_stabB",
+    "parent": "CP-CRD3-9mer",
+    "original_sequence": "THDNQTFPG",
+    "optimized_display": "THDNQTFPG",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 835.29,
+    "length": 9,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.461,
+      "stability": 0.16,
+      "synthesis": 0.975,
+      "drug_likeness": 0.755,
+      "FINAL": 0.658
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(T\u2013H\u2013D\u2013N\u2013Q\u2013T\u2013F\u2013P\u2013G) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 5,
+    "name": "CP-Hairpin14_balC",
+    "parent": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "[Nal]P[NMe-G]S[Nal][Nal][D-P][NMe-G]NHHKC[NMe-F]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1560.47,
+    "length": 14,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.34,
+      "stability": 0.635,
+      "synthesis": 0.79,
+      "drug_likeness": 0.2,
+      "FINAL": 0.621
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-([Nal]\u2013P\u2013[NMe-G]\u2013S\u2013[Nal]\u2013[Nal]\u2013[D-P]\u2013[NMe-G]\u2013N\u2013H\u2013H\u2013K\u2013C\u2013[NMe-F]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 6,
+    "name": "CP-Hairpin14_maxD",
+    "parent": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "[Nal]P[NMe-G]S[Nal][Nal][D-P][NMe-G]NHHKC[NMe-F]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1560.47,
+    "length": 14,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.34,
+      "stability": 0.635,
+      "synthesis": 0.79,
+      "drug_likeness": 0.2,
+      "FINAL": 0.621
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-([Nal]\u2013P\u2013[NMe-G]\u2013S\u2013[Nal]\u2013[Nal]\u2013[D-P]\u2013[NMe-G]\u2013N\u2013H\u2013H\u2013K\u2013C\u2013[NMe-F]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 7,
+    "name": "CP-Biloop-GP16_balC",
+    "parent": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TC[NMe-F]PNHH[NMe-G][D-P]DNQT[4F-Phe][NMe-G][D-P]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1521.49,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.34,
+      "stability": 0.61,
+      "synthesis": 0.71,
+      "drug_likeness": 0.2,
+      "FINAL": 0.608
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(T\u2013C\u2013[NMe-F]\u2013P\u2013N\u2013H\u2013H\u2013[NMe-G]\u2013[D-P]\u2013D\u2013N\u2013Q\u2013T\u2013[4F-Phe]\u2013[NMe-G]\u2013[D-P]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 8,
+    "name": "CP-Biloop-GP16_maxD",
+    "parent": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TC[NMe-F]PNHH[NMe-G][D-P]DNQT[4F-Phe][NMe-G][D-P]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1521.49,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.34,
+      "stability": 0.61,
+      "synthesis": 0.71,
+      "drug_likeness": 0.2,
+      "FINAL": 0.608
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(T\u2013C\u2013[NMe-F]\u2013P\u2013N\u2013H\u2013H\u2013[NMe-G]\u2013[D-P]\u2013D\u2013N\u2013Q\u2013T\u2013[4F-Phe]\u2013[NMe-G]\u2013[D-P]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 9,
+    "name": "CP-Biloop-thioether17_permA",
+    "parent": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "C[NMe-T]C[NMe-F]PNHH[NMe-G][NMe-G]DNQTF[NMe-G]",
+    "cyclization": "thioether",
+    "mw_daltons": 1497.42,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.498,
+      "stability": 0.46,
+      "synthesis": 0.66,
+      "drug_likeness": 0.102,
+      "FINAL": 0.598
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: thioether | Sequence: cyclo-(C\u2013[NMe-T]\u2013C\u2013[NMe-F]\u2013P\u2013N\u2013H\u2013H\u2013[NMe-G]\u2013[NMe-G]\u2013D\u2013N\u2013Q\u2013T\u2013F\u2013[NMe-G]) | Chemistry: ClAc-D-aa at N-term, Cys thioether cyclization"
+  },
+  {
+    "rank": 10,
+    "name": "CP-Hairpin14_permA",
+    "parent": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "YP[NMe-G]SYYP[NMe-G]NHHKC[NMe-F]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1440.47,
+    "length": 14,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.403,
+      "stability": 0.31,
+      "synthesis": 0.895,
+      "drug_likeness": 0.236,
+      "FINAL": 0.588
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(Y\u2013P\u2013[NMe-G]\u2013S\u2013Y\u2013Y\u2013P\u2013[NMe-G]\u2013N\u2013H\u2013H\u2013K\u2013C\u2013[NMe-F]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 11,
+    "name": "CP-Biloop-thioether17_balC",
+    "parent": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "C[NMe-T]C[NMe-F]PNHH[NMe-G][NMe-G]DNQT[4F-Phe][NMe-G]",
+    "cyclization": "thioether",
+    "mw_daltons": 1515.42,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.445,
+      "stability": 0.46,
+      "synthesis": 0.66,
+      "drug_likeness": 0.1,
+      "FINAL": 0.584
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: thioether | Sequence: cyclo-(C\u2013[NMe-T]\u2013C\u2013[NMe-F]\u2013P\u2013N\u2013H\u2013H\u2013[NMe-G]\u2013[NMe-G]\u2013D\u2013N\u2013Q\u2013T\u2013[4F-Phe]\u2013[NMe-G]) | Chemistry: ClAc-D-aa at N-term, Cys thioether cyclization"
+  },
+  {
+    "rank": 12,
+    "name": "CP-Biloop-thioether17_maxD",
+    "parent": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "C[NMe-T]C[NMe-F]PNHH[NMe-G][NMe-G]DNQT[4F-Phe][NMe-G]",
+    "cyclization": "thioether",
+    "mw_daltons": 1515.42,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.445,
+      "stability": 0.46,
+      "synthesis": 0.66,
+      "drug_likeness": 0.1,
+      "FINAL": 0.584
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: thioether | Sequence: cyclo-(C\u2013[NMe-T]\u2013C\u2013[NMe-F]\u2013P\u2013N\u2013H\u2013H\u2013[NMe-G]\u2013[NMe-G]\u2013D\u2013N\u2013Q\u2013T\u2013[4F-Phe]\u2013[NMe-G]) | Chemistry: ClAc-D-aa at N-term, Cys thioether cyclization"
+  },
+  {
+    "rank": 13,
+    "name": "CP-Biloop-GP16_permA",
+    "parent": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TC[NMe-F]PNHH[NMe-G]PDNQTF[NMe-G]P",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1503.49,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.34,
+      "stability": 0.31,
+      "synthesis": 0.815,
+      "drug_likeness": 0.2,
+      "FINAL": 0.558
+    },
+    "recommendation": "STRONG \u2014 prioritize for synthesis",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(T\u2013C\u2013[NMe-F]\u2013P\u2013N\u2013H\u2013H\u2013[NMe-G]\u2013P\u2013D\u2013N\u2013Q\u2013T\u2013F\u2013[NMe-G]\u2013P) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 14,
+    "name": "CP-Hairpin14_stabB",
+    "parent": "CP-Hairpin14",
+    "original_sequence": "YPGSYYPGNHHKCF",
+    "optimized_display": "YPGSYY[D-P]GNHHKCF",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1398.47,
+    "length": 14,
+    "scores": {
+      "affinity": 0.99,
+      "permeability": 0.235,
+      "stability": 0.235,
+      "synthesis": 0.895,
+      "drug_likeness": 0.261,
+      "FINAL": 0.531
+    },
+    "recommendation": "MODERATE \u2014 synthesize in second tier",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(Y\u2013P\u2013G\u2013S\u2013Y\u2013Y\u2013[D-P]\u2013G\u2013N\u2013H\u2013H\u2013K\u2013C\u2013F) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 15,
+    "name": "CP-Biloop-GP16_stabB",
+    "parent": "CP-Biloop-GP16",
+    "original_sequence": "TCFPNHHGPDNQTFGP",
+    "optimized_display": "TCFPNHHG[D-P]DNQTFG[D-P]",
+    "cyclization": "head-to-tail",
+    "mw_daltons": 1461.49,
+    "length": 16,
+    "scores": {
+      "affinity": 0.98,
+      "permeability": 0.224,
+      "stability": 0.31,
+      "synthesis": 0.815,
+      "drug_likeness": 0.223,
+      "FINAL": 0.527
+    },
+    "recommendation": "MODERATE \u2014 synthesize in second tier",
+    "synthesis_spec": "Cyclization: head-to-tail | Sequence: cyclo-(T\u2013C\u2013F\u2013P\u2013N\u2013H\u2013H\u2013G\u2013[D-P]\u2013D\u2013N\u2013Q\u2013T\u2013F\u2013G\u2013[D-P]) | Chemistry: Fmoc SPPS, on-resin cyclization (PyBOP/DIPEA)"
+  },
+  {
+    "rank": 16,
+    "name": "CP-Biloop-thioether17_stabB",
+    "parent": "CP-Biloop-thioether17",
+    "original_sequence": "CTCFPNHHGGDNQTFG",
+    "optimized_display": "CTCFPNHHGGDNQTFG",
+    "cyclization": "thioether",
+    "mw_daltons": 1427.42,
+    "length": 16,
+    "scores": {
+      "affinity": 1.0,
+      "permeability": 0.23,
+      "stability": 0.16,
+      "synthesis": 0.765,
+      "drug_likeness": 0.144,
+      "FINAL": 0.488
+    },
+    "recommendation": "MODERATE \u2014 synthesize in second tier",
+    "synthesis_spec": "Cyclization: thioether | Sequence: cyclo-(C\u2013T\u2013C\u2013F\u2013P\u2013N\u2013H\u2013H\u2013G\u2013G\u2013D\u2013N\u2013Q\u2013T\u2013F\u2013G) | Chemistry: ClAc-D-aa at N-term, Cys thioether cyclization"
+  }
+]
